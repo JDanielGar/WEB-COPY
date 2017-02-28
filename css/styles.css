@@ -8,17 +8,44 @@ header {
     height: 6em;
     width: 100%;
 }
+.header-left {
+	float: left;
+	margin: 0 10% 0 10%;
+}
 .header-right{
 	float: right;
 }
-.header-left {
-	float: left;
-}
 .input-group {
-    padding: 1.7em;
+    padding: 1.7em 7em 1.7em 1.7em;
     color: white;
 }
 .header-left img{
     height: 91px;
     width: 250px;
+}
+.input-group div {
+    display: inline-block;
+}
+.input-group div div {
+    display: block;
+    font-size: .7em;
+}
+.input-group div input {
+    border: 1px solid black;
+    padding: .3em;
+}
+.input-group div:first-child {
+    margin-right: 1em;
+}
+.loginButton{
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    background-color: #4267b2;
+    padding: .5em;
+    border-radius: 2px;
+    border: 1px solid #29487d;
+}
+.loginButton:hover{
+		background-color: #365899;
 }
