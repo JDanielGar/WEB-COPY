@@ -1,0 +1,24 @@
+body {
+	font-family: Verdana;
+	font-size: 16px;
+	margin: 0px;
+}
+header {
+	background-color: #4867AA;
+    height: 6em;
+    width: 100%;
+}
+.header-right{
+	float: right;
+}
+.header-left {
+	float: left;
+}
+.input-group {
+    padding: 1.7em;
+    color: white;
+}
+.header-left img{
+    height: 91px;
+    width: 250px;
+}
