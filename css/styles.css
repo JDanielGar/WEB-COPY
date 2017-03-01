@@ -5,32 +5,40 @@ body {
 }
 header {
 	background-color: #4867AA;
-    height: 6em;
+    height: inherit;
     width: 100%;
 }
+header div{
+	display: block;
+}
 .header-left {
-	float: left;
-	margin: 0 10% 0 10%;
+    display: inline-block;
+    padding: 0 10% 0 10%;
+	width: 34%;
 }
 .header-right{
-	float: right;
+    display: inline-block;
+    overflow: hidden;
+    padding: 1.5em 0 1.5em 0;
+    width: 45%;
 }
+
 .input-group {
-    padding: 1.7em 7em 1.7em 1.7em;
     color: white;
 }
 .header-left img{
-    height: 91px;
+    height: 95px;
     width: 250px;
 }
 .input-group div {
-    display: inline-block;
+	display: inline-block;
 }
 .input-group div div {
-    display: block;
+	display: block;
     font-size: .7em;
 }
 .input-group div input {
+	display: inline;
     border: 1px solid black;
     padding: .3em;
 }
@@ -48,4 +56,65 @@ header {
 }
 .loginButton:hover{
 		background-color: #365899;
+}
+section {
+    width: 100%;
+    height: 30em;
+    background: linear-gradient(#F9F9FC, #D5DAE9);
+    padding-left: 3em;
+}
+section div {
+    display: inline-block;
+}
+.section-left{
+    width: 55%;
+}
+
+.section-right{
+    width: 32%;
+}
+
+.welcome-message{
+    color: #0E385F;
+}
+
+.text-welcome{
+    font-size: 20px;
+    font-weight: bold;
+    height: 10%;
+    padding: 2em 1em 2em 5em;
+    width: 74%;
+}
+
+.welcome-message img{
+    padding: 0em 0em 0 6em;
+    margin-bottom: 5em;
+}
+h1 {
+    font-size: 2.3em;
+}
+h2 {
+    font-size: 1em;
+}
+.fullname{
+    display: inline-block;
+
+}
+#name{
+    margin-right: 3px;
+}
+#name, #last-name{
+    font-size: 18px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 8px 3px 8px 13px;
+    width: 10em;
+}
+.basic-signup input{
+    font-size: 18px;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 8px 3px 8px 13px;
+    width: 21.4em;
+    margin: .2em 0em;
 }
