@@ -118,3 +118,27 @@ h2 {
     width: 21.4em;
     margin: .2em 0em;
 }
+.birthday h2 {
+	font-size: 18px;
+	font-weight: normal;
+}
+.birthday div:first-child {
+	display: inline;
+}
+.birthday-button {
+	padding-right: 0.3em;
+    padding-bottom: .8em;
+    overflow: hidden;
+}
+.birthday div select{
+	font-size: 13px;
+	padding: 5px;
+	margin:-1px;
+}
+.birthday-privacity {
+	width: 10em;
+}
+.birthday-privacity a{
+	font-size: 12px;
+	color: #365899;
+}
