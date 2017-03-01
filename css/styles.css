@@ -189,14 +189,14 @@ h2 {
 .public a{
 	color: #365899;
 }
-footer div{
-    width: 54%;
-    padding: 0 24% 0 24%;
-    margin-bottom: 3em
+.aling-container{
+    width: 66%;
+    padding: 0 13% 0 13%;
+    margin-bottom: 3em;
 }
 .language-container{
 	border-width: 0px 0px 2px 0px;
-	border-color: grey;
+	border-color: lightgrey;
 	border-style: solid;
 }
 footer div a{
@@ -213,8 +213,26 @@ ul {
 .language-button{
 	font-weight: bold;
 	color: black;
-	border: 1px solid grey;
+	border: 1px solid lightgrey;
 	background-color: #E9EBEE; 
 	padding: .2em .5em;
 }
 
+.col {
+	width: inherit;
+	display: inline-block;
+	padding-left: 5px;
+}
+.col p{
+	margin: 0;
+}
+.one{
+	padding-bottom: 1em;
+}
+.row {
+	display: inline-block;
+}
+.second{
+	padding-bottom: 1em;
+	overflow: hidden;
+}
